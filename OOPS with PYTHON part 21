@@ -1,0 +1,15 @@
+class Mobile:
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+
+    def display(self):
+        print(self.brand, "-", self.price)
+
+m1 = Mobile("Samsung", 20000)
+m2 = Mobile("Apple", 60000)
+m3 = Mobile("OnePlus", 30000)
+
+m1.display()
+m2.display()
+m3.display()
