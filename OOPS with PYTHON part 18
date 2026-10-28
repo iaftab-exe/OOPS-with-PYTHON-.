@@ -1,0 +1,13 @@
+from abc import ABC, abstractmethod
+
+class Payment(ABC):
+    @abstractmethod
+    def pay(self, amount):
+        pass
+
+class UPI:
+    def pay(self, amount):
+        print("Paid:", amount)
+
+payment = UPI()
+payment.pay(500)
