@@ -1,0 +1,12 @@
+try:
+...     a=int(input("enter a="))
+...     b=int(input("enter b="))
+...     print(a/b)
+... except ValueError:
+...     print("the inputs are as follows")
+... except ZeroDivisonError:
+...     print("final answer")
+...
+enter a=12
+enter b=e
+enter the inputs are as follows...final answer
