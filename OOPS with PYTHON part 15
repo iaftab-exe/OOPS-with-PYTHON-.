@@ -1,0 +1,11 @@
+class Student:
+    college = "ABC College"
+
+    def __init__(self, name):
+        self.name = name
+
+s1 = Student("Rahul")
+s2 = Student("Aman")
+
+print(s1.name, s1.college)
+print(s2.name, s2.college)
