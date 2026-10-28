@@ -1,0 +1,18 @@
+class airbuds:
+    def working(self):
+        print("airbuds are working")
+
+class airpod1(airbuds):
+    def working1(self):
+        print("airbud1 is working")
+
+class airpod2(airbuds):
+    def working2(self):
+        print("airpod2 is working")
+
+a = airbuds()
+b = airpod1()
+c = airpod2()
+a.working()
+b.working1()
+c.working2()
