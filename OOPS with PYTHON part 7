@@ -1,0 +1,27 @@
+class Dog:
+def sound(self):
+print("Dog Bark")
+
+class Cat(Dog):
+def sound(self):
+print("cat meow")
+
+d=Dog()
+c=Cat()
+c.sound()
+
+cash with draw : UPI,PHONE PAY,DIGITAL RUPEE,PAYTM 
+
+class Dog:
+def sound(self):
+print("Dog sound")
+ 
+class cat(Dog):
+def sound(self):
+print("Cat sound")
+
+d=Dog()
+c=Cat()
+
+d.sound()
+c.sound()
