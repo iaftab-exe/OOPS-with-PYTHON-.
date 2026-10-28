@@ -1,0 +1,11 @@
+class Person:
+    def display_name(self):
+        print("My name is Aftab")
+
+class Student(Person):
+    def display_course(self):
+        print("I am studying B.Tech")
+
+s = Student()
+s.display_name()
+s.display_course()
