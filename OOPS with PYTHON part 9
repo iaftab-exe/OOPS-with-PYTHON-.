@@ -1,0 +1,19 @@
+class PolymorphismDemo {
+    static void display(int a) {
+        System.out.println("Argument: " + a + " (Integer)");
+    }
+
+        static void display(int a, int b) {
+        System.out.println("Arguments: " + a + " and " + b + " (Two Integers)");
+    }
+
+        static void display(String name) {
+        System.out.println("Argument: " + name + " (String)");
+    }
+
+    public static void main(String[] args) {
+        PolymorphismDemo.display(10);
+        PolymorphismDemo.display(20, 30);
+        PolymorphismDemo.display("Hello Java");
+    }
+}
