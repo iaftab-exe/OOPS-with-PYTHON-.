@@ -1,0 +1,22 @@
+class Person:
+    def show_person(self):
+        print("I am a person")
+
+class Student(Person):
+    def show_student(self):
+        print("I am a student")
+
+class Teacher(Person):
+    def show_teacher(self):
+        print("I am a teacher")
+
+class TeachingAssistant(Student, Teacher):
+    def show_assistant(self):
+        print("I am a teaching assistant")
+
+a = TeachingAssistant()
+
+a.show_person()
+a.show_student()
+a.show_teacher()
+a.show_assistant()
