@@ -1,0 +1,11 @@
+class Employee:
+    def show_name(self):
+        print("Employee name: Rahul")
+
+class Salary(Employee):
+    def show_salary(self):
+        print("Salary: 25000")
+
+e = Salary()
+e.show_name()
+e.show_salary()
